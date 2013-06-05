@@ -1,0 +1,14 @@
+---
+:backends:
+  - yaml
+
+logger: console
+
+hierarchy:
+  - "%{location}"
+  - common
+
+:yaml:
+   :datadir: /etc/hieradata
+
+
